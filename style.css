@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+   --primary-color: rgb(193, 83, 236);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: ubuntu, Arial, Helvetica, sans-serif;
+   font-size: 18px;
+}
+
+html {
+   background-color: #f7f7f7;
+}
+
+.wrapper {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   min-width: 35%;
+   padding: 20px;
+   border-radius: 20px;
+   background-color: #ffffff;
+   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.144);
+}
+
+header,
+main {
+   text-align: center;
+}
+
+header h1 {
+   font-size: 1.5em;
+   color: var(--primary-color);
+}
+
+header p {
+   font-size: 1em;
+   color: var(--primary-color);
+}
+
+header {
+   margin-bottom: 30px;
+}
+
+main {
+   width: 100%;
+   /* border: 1px solid rgb(255, 29, 29); */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.view {
+   width: 30%;
+   text-align: center;
+   padding: 5px;
+   border-radius: 20px;
+   border: none;
+   outline: none;
+   border-top: 2px solid var(--primary-color);
+   border-bottom: 5px solid var(--primary-color);
+   font-size: 1.1em;
+   font-weight: bold;
+   background-color: #fff;
+   color: var(--primary-color);
+}
+
+.btns {
+   margin-top: 20px;
+}
+
+button {
+   padding: 7px 15px;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   background-color: #fff;
+}
+
+.increment {
+   border: 1px solid rgb(74, 201, 74);
+   color: var(--primary-color);
+}
+
+.increment:hover {
+   background-color: rgb(74, 201, 74);
+   color: #fff;
+   cursor: pointer;
+}
+
+.decrement {
+   border: 1px solid rgb(224, 77, 77);
+   color: var(--primary-color);
+}
+
+.decrement:hover {
+   background-color: rgb(224, 77, 77);
+   color: #fff;
+   cursor: pointer;
+}
+
+.reset {
+   border: 1px solid var(--primary-color);
+   color: var(--primary-color);
+}
+
+.reset:hover {
+   background-color: var(--primary-color);
+   color: #fff;
+   cursor: pointer;
+}
